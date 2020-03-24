@@ -146,8 +146,7 @@ public class _2_StartTheGoogleMapsActivity {
         Method myMethod = null;
 
         try {
-            myMethod =  InfoActivity.class
-                    .getMethod("createMapIntent", View.class);
+            myMethod =  InfoActivity.class.getMethod("createMapIntent", View.class);
         } catch (NoSuchMethodException e) {
             //e.printStackTrace();
         }
